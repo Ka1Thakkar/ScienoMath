@@ -18,17 +18,17 @@ const Testimonial = () => {
         ]
     ]
     return (
-        <section id="testimonials" className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-bgorange to-bgred pt-32">
-            <h1 className="text-5xl md:text-6xl font-semibold">Testimonials</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 px-10 xl:px-40 pt-20 gap-x-10 gap-y-10">
+        <section id="testimonials" className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-bgyellow to-bgred">
+            <h1 className="text-5xl md:text-6xl font-semibold text-bgbrown">Testimonials</h1>
+            <div className="grid grid-cols-2 px-5 xl:px-40 pt-20 gap-x-2 gap-y-2">
                 {testimonials.map((testimonial, key) => (
-                    <div className="bg-bgwhite rounded-xl p-10 text-center lg:bg-opacity-80 lg:hover:shadow-lg lg:hover:shadow-bgyellow lg:hover:bg-opacity-100 transition-all ease-in-out" key={key}>
+                    <div className="bg-bgwhite rounded-xl px-2 py-5 text-center lg:hover:shadow-lg lg:hover:shadow-bgbrown lg:hover:bg-opacity-100 transition-all ease-in-out" key={key}>
                         <div className="flex justify-around">
-                            <h1 className="text-lg sm:text-3xl lg:text-7xl font-serif font-bold">"</h1>
-                            <h1 className="text-xl sm:text-2xl font-semibold sm:px-5">{testimonial[0]}</h1>
-                            <h1 className="text-lg sm:text-3xl lg:text-7xl font-serif font-bold">"</h1>
+                            <h1 className="text-xl sm:text-3xl lg:text-7xl font-serif font-bold text-bgbrown">"</h1>
+                            <h1 className="text-sm sm:text-2xl font-semibold sm:px-5">{testimonial[0]}</h1>
+                            <h1 className="text-xl sm:text-3xl lg:text-7xl font-serif font-bold text-bgbrown">"</h1>
                         </div>
-                        <h1 className="text-xl font-medium pt-5">~{testimonial[1]} Parent</h1>
+                        <h1 className="text-base sm:text-xl font-medium pt-5">~{testimonial[1]} Parent</h1>
                     </div>
                 ))}
             </div>

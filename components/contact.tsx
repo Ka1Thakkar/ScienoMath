@@ -6,9 +6,9 @@ import {BsArrowUpCircle} from 'react-icons/bs'
 const Contact = () => {
     return (
         <section id='contact' className="min-h-screen bg-bgwhite flex flex-col justify-center items-center">
-            <h1 className='text-5xl md:text-6xl font-semibold pb-40'>Contact Us</h1>
+            <h1 className='text-5xl md:text-6xl font-semibold pb-40 text-bgbrown'>Contact Us</h1>
             <div className='md:flex items-center gap-10 lg:gap-20 xl:gap-40 2xl:gap-52 pb-20'>
-                <Image src={logo} height={300} width={300} quality={100} alt='logo' />
+                <Image src={logo} height={300} width={300} quality={100} alt='logo' className='opacity-0 md:opacity-100' />
                 <svg className='opacity-0 md:opacity-100 h-px md:h-full w-px'>
                     <rect className=' fill-black stroke-2 stroke-black h-full w-px' />
                 </svg>

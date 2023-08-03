@@ -19,9 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className=' overflow-x-hidden scroll-smooth'>
-      {/* <div>
+      <div>
         <Logo />
-      </div> */}
+      </div>
       <div className='opacity-0 md:opacity-100'>
         <Navbar />
       </div>

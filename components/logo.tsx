@@ -12,7 +12,7 @@ const Logo = () => {
             <div className=" bg-bgwhite text-navbartext">
             <div className="flex justify-center items-center py-5 px-10">
                 <div className="my-auto">
-                    <Link href={"#home"}><Image src={logo} height={40} width={120} alt="Restaurant logo" quality={100} /></Link>
+                    <Link href={"#home"}><Image src={logo} height={40} width={100} alt="Restaurant logo" quality={100} /></Link>
                 </div>
             </div>
         </div>

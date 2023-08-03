@@ -12,7 +12,10 @@ module.exports = {
         bggreen: "#CCEDB2",
         bgyellow: "#EDEDB2",
         bgorange: "#EDBDB2",
-        bgred:"#EDB2B2"
+        bgred:"#EDB2B2",
+        bggray: "#303030",
+        bgbrown: "#9e795f",
+        textgray: "#36444a"
       } 
     },
   },
