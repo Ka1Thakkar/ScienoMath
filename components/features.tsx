@@ -4,9 +4,9 @@ import {MdTouchApp} from 'react-icons/md'
 
 const Features = () => {
     return (
-        <section id='features' className=" bg-gradient-to-b from-bgred to-bgyellow min-h-screen flex flex-col justify-center items-center gap-16 pb-32 xl:pb-0 pt-20">
+        <section id='features' className=" bg-gradient-to-b from-bgred to-bgred min-h-screen flex flex-col justify-center items-center gap-16 pb-32 xl:pb-0 pt-20">
             <div>
-                <h1 className="text-center font-semibold text-5xl md:text-6xl text-bgbrown">Features</h1>
+                <h1 className="text-center font-semibold text-5xl md:text-6xl text-textgray">Features</h1>
             </div>
             <div className=" 2xl:w-10/12 2xl:h-3/5 rounded-xl pb-10 px-5 2xl:px-0">
                 <div className="grid gap-2 grid-cols-2 2xl:gap-0 2xl:grid-cols-4 text-center h-full 2xl:bg-bgwhite rounded-xl">
