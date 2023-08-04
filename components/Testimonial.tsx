@@ -19,13 +19,7 @@ const Testimonial = () => {
             transition={{duration:1, delay:0.5}}
             viewport={{once:true}}
             className="text-xl md:text-2xl font-semibold text-bgbrown pb-20 text-center">Don't believe us? Listen to what other parents have to say.</m.h1>
-            <m.div
-            initial={{opacity:0}}
-            whileInView={{opacity:1}}
-            transition={{duration:1, delay:0.75}}
-            viewport={{once:true}}>
-                <Reviews />
-            </m.div>
+            <Reviews />
         </section>
     );
 }
