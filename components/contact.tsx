@@ -56,7 +56,7 @@ const Contact = () => {
             <m.button
             initial={{opacity:0}}
             animate={{opacity:1}}
-            transition={{duration:1, delay:0.25}}
+            transition={{delay:1.25}}
             whileHover={{
                 y:[0,-5],
                 transition:{
