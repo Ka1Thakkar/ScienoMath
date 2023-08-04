@@ -24,9 +24,9 @@ const Navbar = () => {
                     <button className="border-b-4 border-white transition-all ease-in-out  hover:border-buttonorange">
                         <a href="#testimonials">Testimonials</a>
                     </button>                    
-                    <button className="border-b-4 border-white transition-all ease-in-out hover:border-buttonorange">
+                    {/* <button className="border-b-4 border-white transition-all ease-in-out hover:border-buttonorange">
                         <a href="#instructor">Instructor</a>
-                    </button>                    
+                    </button>                     */}
                     <button className="border-b-4 border-white transition-all ease-in-out hover:border-buttonorange">
                         <a href="#contact">Contact Us</a>
                     </button>                

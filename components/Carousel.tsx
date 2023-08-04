@@ -34,7 +34,7 @@ const Carousel = ({ children, ...options }: Props) => {
 
   return (
     <section>
-        <div className="overflow-hidden" ref={emblaRef}>
+        <div className="overflow-hidden pb-5" ref={emblaRef}>
             <div className="flex gap-10">{children}</div>
         </div>
         <Dots itemsLength={length} selectedIndex={selectedIndex} />

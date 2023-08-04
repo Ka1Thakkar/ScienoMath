@@ -11,7 +11,7 @@ const BottomBar = () => {
         <div className="fixed bottom-0 left-0 z-50 w-full">
             <div className=" bg-white text-navbartext rounded-t-lg border-t-[1px] border-bgbrown">
             <div className="flex justify-center items-center py-3 px-5">
-                <div className="flex text-md gap-2 items-center justify-center">
+                <div className="flex text-md gap-5 items-center justify-center">
                     <button className="">
                         <a href="#about">About</a>
                     </button>
@@ -21,9 +21,9 @@ const BottomBar = () => {
                     <button className="">
                         <a href="#testimonials">Testimonials</a>
                     </button>                    
-                    <button className="">
+                    {/* <button className="">
                         <a href="#instructor">Instructor</a>
-                    </button>                    
+                    </button>                     */}
                     <button className="">
                         <a href="#contact">Contact</a>
                     </button>                
