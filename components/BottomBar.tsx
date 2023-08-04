@@ -9,7 +9,7 @@ const BottomBar = () => {
     return (
         <div className={poppins.className}>
         <div className="fixed bottom-0 left-0 z-50 w-full">
-            <div className=" bg-bgwhite text-navbartext rounded-t-lg border-t-[1px] border-bgbrown">
+            <div className=" bg-white text-navbartext rounded-t-lg border-t-[1px] border-bgbrown">
             <div className="flex justify-center items-center py-3 px-5">
                 <div className="flex text-md gap-2 items-center justify-center">
                     <button className="">

@@ -8,8 +8,8 @@ const poppins = Poppins({weight:["400","300"], subsets:["latin"]})
 const Logo = () => {
     return (
         <div className={poppins.className}>
-        <div className="fixed top-0 left-0 z-50 w-full bg-bgwhite">
-            <div className=" bg-bgwhite text-navbartext">
+        <div className="fixed top-0 left-0 z-50 w-full bg-white">
+            <div className=" bg-white text-navbartext">
             <div className="flex justify-center items-center py-5 px-10">
                 <div className="my-auto">
                     <Link href={"#home"}><Image src={logo} height={40} width={120} alt="Restaurant logo" quality={100} /></Link>
