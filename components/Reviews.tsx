@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Carousel from "./Carousel";
-import Image from "next/image";
-import {motion as m} from 'framer-motion'
+
 
 const Reviews: NextPage = () => {
     const testimonials = [
@@ -23,11 +22,7 @@ const Reviews: NextPage = () => {
         ]
     ]
   return (
-    <m.div
-    initial={{opacity:0}}
-    whileInView={{opacity:1}}
-    transition={{duration:1, delay:0.75}}
-    viewport={{once:true}}
+    <div
     className="lg:w-5/12 w-10/12 mx-auto my-2">
       <Carousel loop>
         {testimonials.map((review, i) => {
@@ -50,7 +45,7 @@ const Reviews: NextPage = () => {
           );
         })}
       </Carousel>
-    </m.div>
+    </div>
   );
 };
 

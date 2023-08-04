@@ -2,7 +2,6 @@ import Image from "next/image";
 import logo from "@/public/assets/logo(2).png"
 import { Poppins } from "next/font/google";
 import Link from "next/link";
-import {motion as m} from 'framer-motion';
 
 const poppins = Poppins({weight:["400","300"], subsets:["latin"]})
 
