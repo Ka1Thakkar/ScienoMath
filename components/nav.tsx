@@ -31,14 +31,14 @@ const Navbar = () => {
                     <m.button
                     initial = {{opacity:0, x:40}}
                     animate = {{opacity:1, x:0}}
-                    transition={{delay:0.5, duration:1, type: "Tween"}}
+                    transition={{delay:0.25, duration:1, type: "Tween"}}
                     className="border-b-4 border-white transition-all ease-in-out  hover:border-buttonorange">
                         <a href="#features">Features</a>
                     </m.button>                    
                     <m.button
                     initial = {{opacity:0, x:40}}
                     animate = {{opacity:1, x:0}}
-                    transition={{delay:1, duration:1, type: "Tween"}}
+                    transition={{delay:0.5, duration:1, type: "Tween"}}
                     className="border-b-4 border-white transition-all ease-in-out  hover:border-buttonorange">
                         <a href="#testimonials">Testimonials</a>
                     </m.button>                    
@@ -48,7 +48,7 @@ const Navbar = () => {
                     <m.button
                     initial = {{opacity:0, x:40}}
                     animate = {{opacity:1, x:0}}
-                    transition={{delay:1.5, duration:1, type: "Tween"}}
+                    transition={{delay:0.75, duration:1, type: "Tween"}}
                     className="border-b-4 border-white transition-all ease-in-out hover:border-buttonorange">
                         <a href="#contact">Contact Us</a>
                     </m.button>                
